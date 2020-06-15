@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/06f93047a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Star Wars Character Data</title>
+    <link rel="icon" href="/assets/media/favicon-sw.png" sizes="192x192">
+    <meta name="description" content="Star wars character data provided by https://swapi.dev/">
+    <meta name="keywords" content="Star Wars, SWAPI, API, Project">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo-wrap">
+        <a href="index.html"><img class="header__logo-wrap-img" src="./assets/media/logo.png" alt="star wars logo"/>
+        </a>
+      </div>
+      <div class="header__search">
+          <input type="text" name="search" placeholder="Search for your favorite SW character!">
+      </div>
+    </header>
+    
+    <h2 class="headline">Explore your favorite Starwars characters!</h2>
+    <main class="sw-main">
+      <i class="fas fa-arrow-circle-left"></i>
+      <section class="sw-main sw-main__characters"></section>
+      <i class="fas fa-arrow-circle-right"></i>
+    </main>
+
+    <footer class="sw-footer">
+      <h4>Powered by SWAPI</h4>
+    </footer>
+
+    <script src="./assets/js/profiles.js"></script>
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/draw.js"></script>
+    <script src="./assets/js/pagination.js"></script>
+    <script src="./assets/js/search-characters.js"></script>
+
+  </body>
+</html>
