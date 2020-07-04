@@ -6,7 +6,7 @@ Make a searchable single page Star Wars character index using SWAPI.
 
 [Star Wars - SWAPI](http://sw-projekt.surge.sh/) 
  
-## Screen'
+## Screen
 
 ![Screenshot](screen.png)
 
